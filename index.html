@@ -1,13 +1,91 @@
-<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my-site</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Finn's Domain of Knowledge</title>
+
+        <style>
+            .back {
+                max-width: 800px;
+                height: 100%;
+                background-color: #fdfdfd;
+                padding: 20px 20px 60px 20px;
+            }
+            #text {
+                font-size: 20px;
+                color: #000000;
+            }
+            #header {
+                font-size: 30px;
+                color: #000000;
+            }
+
+        </style>
+
+    </head>
+        
+
+    <body>
+        <header>
+            <h1>Finn's Domain of <s>Terror</s> Knowledge</h1>
+            <nav>
+            <a href="#about">About</a>
+            <br>
+            <a href="#projects">Projects</a>
+            <br>
+            <a href="#soon">Coming Soon</a>
+            <br>
+            <a href="#weird">Why does this website look old?</a>
+            </nav>
+        </header>
+        <div class="back">
+            
+            <section id="about">
+                <h2 id="header">About Me</h2>
+                <p id="text">Hi! I am Finn, I am 13 and learning web development. I am currently focused on backend work but I thought building a personal website could be fun. I have made some projects such as a few AI robots and my current big project <a href="https://sideranacio.org/">Sidera Nacio</a></p>
+                <p id="text">If you want to learn more about me, visit my blog <a href="/my-site/blog.html">here</a>.</p>
+            </section>
+
+            <br>
+
+            <section id="projects">
+                <h2 id="header">Projects</h2>
+                <p id="text">I have made a few projects, including:</p>
+                <ul id="text">
+                    <li><a href="https://sideranacio.org/">Sidera Nacio</a>, an online nation meant to unite people from different backgrounds.</li>
+                    <li>A custom MCP for my <a href="https://huggingface.co/reachy-mini">Reachy Mini</a> it uses OpenClaw to control the robot which sits at my desk, I hope to share the code soon.</li>
+                    <li>A robot, my most successful robot was named "Bobbert" it was a small neural network that could learn speech and how to move, it controlled a small RC car. It was a fun project but unfortunately its memory became corrupted and I lost all of its data.</li>
+                </ul>
+            </section>
+            <br>
+            <section id="soon">
+                <h2 id="header">Coming Soon</h2>
+                <p id="text">Here are some projects I am either currently making or have the idea to make and wanted to save it:</p>
+                <ul id="text">
+                    <li>A new robot, I am currently working on a new robot that will be able to learn more complex tasks and will be able to interact with its environment more effectively.</li>
+                    <li>Spatial notification system, I am currently making a system of LEDs that will be able to light up certain parts of a room based on the location of an object/task in the room</li>
+                </ul>
+            </section>
+            <br>
+            <section id="contact">
+                <h2 id="header">Contact Me</h2>
+                <a href="tel:+1-720-580-3352">Call Me</a>
+                <a href="mailto:finncullen2012@gmail.com">Email Me</a>
+                <a href="https://sideranacio.org">Visit My Country</a>
+                <a href="https://github.com/Tacocat991763">My GitHub</a>
+            </section>
+            <br>
+            <section id="weird">
+                <h2 id="header">Why does this website look old?</h2>
+                <p id="text">This website looks old school because I love the aesthetics of retro design and wanted to create something that feels like the first websites. (and I am lazy)</p>
+            </section>
+
+            <footer>
+                <hr>
+                    Made by Finn, 2026. All rights reserved. <br>
+                    Last updated: July 2026
+                </hr>
+            </footer>
+        </div>
+    </body>
 </html>
